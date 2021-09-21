@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+    </head>
+    <body>
+        <div class="dropdown dropend"> <!-- normal dropdown aşağı yönde cente rolarak menüyü açar , buna ek yapılarak açılış yönü değiştirilebilir-->
+            <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown"> 
+                Menü
+            </button>
+            <div class="dropdown-menu">
+                <div class="dropdown-header">Sepet Elemanaları</div>
+                <a class="dropdown-item" href="index.html">AnaSayfa</a>
+                <a class="dropdown-item" href="container.html">Container</a>
+                <a class="dropdown-item" href="tablolar.html">Tablolar</a>
+                <a class="dropdown-item disabled" href="formlar.html">Fromlarla Çalışmak</a>
+
+                <div class="dropdown-divider"></div> <!-- araya çizgi atar -->
+                <a class="dropdown-item">Satın Al</a>
+            </div>
+        </div>
+        <div class="btn-group"> <!-- normal dropdown aşağı yönde cente rolarak menüyü açar , buna ek yapılarak açılış yönü değiştirilebilir-->
+            <button type="button" class="btn btn-success">Sepet</button> 
+            <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"></button>
+            <div class="dropdown-menu">
+                <div class="dropdown-header">Sepet Elemanaları</div>
+                <a class="dropdown-item">item1</a>
+                <a class="dropdown-item">item2</a>
+                <a class="dropdown-item">item3</a>
+                <a class="dropdown-item disabled" href="formlar.html">item4-bitti</a>
+
+                <div class="dropdown-divider"></div> <!-- araya çizgi atar -->
+                <a class="dropdown-item">Satın Al</a>
+            </div>
+        </div>
+
+        <script src="js/jquery-3.6.0.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </body>
+</html>

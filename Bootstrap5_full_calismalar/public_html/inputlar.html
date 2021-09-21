@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <form class="col-md-6">
+                <div>
+                    <label for="email" class="form-label">Email: </label>
+                    <input type="email" class="form-control" placeholder="E-Mail" id="email"> <!-- placehorder default gelen input yerinin içindeki hafif silik yazı -->
+                </div>                
+                <div >
+                    <label for="usarname">Kullanıcı Adı: </label>
+                    <input type="text" class="form-control" placeholder="Kullanıcı Adı" id="usarname"> 
+                </div>
+                <div>
+                    <label for="password">Şifre: </label>
+                    <input type="password" class="form-control" placeholder="Şifre" id="password"> 
+                </div>  
+                <div>
+                    <label for="city" class="form-label">Şehirler</label>
+                    <select id="city" class="form-control form-select">
+                        <option>Ankara</option>
+                        <option>Bursa</option>
+                        <option>İzmir</option>
+                        <option>İstanbul</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="form-label" for="bio">Hakkında: </label>
+                    <textarea id="bio" class="form-control form-text" rows="3">birşeyler...</textarea>
+                </div>
+                <div class="form-check">
+                    <label class="form-label" for="term">I accepted the terms: </label>
+                    <input id="term" checked class="form-check-input" type="checkbox">
+                </div>
+                <div class="form-check">
+                    <label class="form-label" for="term2">Option</label>
+                    <input id="term2" class="form-check-input" type="radio" name="radyobutonu">
+                </div>
+                <div class="form-check">
+                    <label class="form-label" for="term2">Option</label>
+                    <input id="term2" class="form-check-input" type="radio" name="radyobutonu">
+                </div>
+                <div class="form-check">
+                    <label class="form-label" for="term2">Option</label>
+                    <input id="term2" class="form-check-input" type="radio" name="radyobutonu">
+                </div>
+                <button class="btn-info">Send</button>
+            </form>
+        </div>
+
+        <br/><a href="index.html">AnaSayfa</a><br/>
+
+        <script src="js/jquery-3.6.0.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </body>
+</html>
